@@ -5,7 +5,7 @@ export function EventButton() {
     <div>
       <button
         className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer'
-        onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'xyz' })}
+        onClick={() => sendGTMEvent({ event: 'button_clicked', value: 'xyz' })}
       >
         Send Event
       </button>
