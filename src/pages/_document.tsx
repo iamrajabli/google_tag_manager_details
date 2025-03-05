@@ -9,8 +9,7 @@ export default function Document() {
         <NextScript />
 
 
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S4667XS"
-          height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe></noscript>
+       
       </body>
     </Html>
   );
