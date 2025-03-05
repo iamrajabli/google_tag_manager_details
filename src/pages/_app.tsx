@@ -7,6 +7,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return <>
     <Component {...pageProps} />
     <GoogleTagManager gtmId="GTM-5S4667XS" />
-    <GoogleAnalytics gaId="G-D0833WSE5N" />
+    <GoogleAnalytics gaId="G-KMM12Q8YPC" />
   </>
 }
