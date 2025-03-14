@@ -1,3 +1,4 @@
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -9,7 +10,8 @@ export default function Document() {
         <NextScript />
 
 
-       
+         <GoogleTagManager gtmId="GTM-5S4667XS" />
+            <GoogleAnalytics gaId="G-KMM12Q8YPC" />
       </body>
     </Html>
   );
